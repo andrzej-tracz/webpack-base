@@ -1,0 +1,15 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.c-loader {
+  animation: spin .7s ease-in-out infinite;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  border-top-color: lightblue;
+  margin: 30px auto;
+}
